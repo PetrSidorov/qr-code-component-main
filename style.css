@@ -1,0 +1,62 @@
+@import url("utility.css");
+* {
+  box-sizing: border-box;
+}
+
+p,
+.content,
+.title {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+body {
+  background-color: var(--slate-300);
+  /* position: relative; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* padding: 28px; */
+}
+
+.qr-code {
+  max-width: 288px;
+  max-height: 288px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.card {
+  margin: auto;
+  padding: 16px;
+  padding-bottom: 40px;
+  background-color: white;
+  border-radius: 20px;
+  max-width: 320px;
+  inset: 28px;
+  position: absolute;
+  max-height: fit-content;
+}
+
+.title {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  text-align: center;
+  color: #1f314f;
+  margin-bottom: 16px;
+}
+
+.content {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #68778d;
+  max-width: 256px;
+  margin: auto;
+}

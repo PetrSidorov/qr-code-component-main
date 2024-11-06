@@ -1,0 +1,31 @@
+body {
+  --slate-900: #1f314f;
+  --slate-500: #68778d;
+  --slate-300: #d5e1ef;
+  --blue-600: #2c7dfa;
+  --blue-500: #3685ff;
+  --white: #ffffff;
+  --var-500: 2.5rem;
+  --var-300: 1.5rem;
+  --var-200: 1rem;
+  --text-preset-1: 1.375rem;
+  --text-preset-2: 0.938rem;
+}
+.slate-900 {
+  color: var(--slate-900);
+}
+.slate-500 {
+  color: var(--slate-500);
+}
+.slate-300 {
+  color: var(--slate-300);
+}
+.blue-600 {
+  color: var(--blue-600);
+}
+.blue-500 {
+  color: var(--blue-500);
+}
+.white {
+  color: var(--white);
+}
